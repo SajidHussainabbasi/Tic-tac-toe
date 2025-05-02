@@ -53,7 +53,7 @@ Project has Completed
 
 ## Inspiration
 
-Project for my Brussels formation Course of  in HYF
+Project for my Brussels formation Course of FED in HYF
 
 ## Contact
 
