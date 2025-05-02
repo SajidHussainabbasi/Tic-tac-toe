@@ -2,16 +2,26 @@
  * @jest-environment jsdom
  */
 
-import createHeader from './header.js';
+import { createHeader } from './header.js';
 
-describe('Header Component', () => {
-    test('should create a header element with the correct title', () => {
-        const headerElement = createHeader('My Header');
-        expect(headerElement.nodeName).toEqual('H1');
-    });
+describe('createHeader', () => {
+  it('should return a <header> element', () => {
+    const header = createHeader('Tic Tac Toe');
+    expect(header.tagName).toBe('HEADER');
+  });
 
-    test('should have the correct class name', () => {
-        const headerElement = createHeader('My Header');
-        expect(headerElement.className).toEqual('title');
-    });
+  it('should contain an <h1> element with the correct text', () => {
+    const text = 'Tic Tac Toe';
+    const header = createHeader(text);
+    const h1 = header.querySelector('h1');
+
+    expect(h1).not.toBeNull();
+    expect(h1.tagName).toBe('H1');
+    expect(h1.textContent).toBe(text);
+  });
+
+  it('should not contain more than one child element', () => {
+    const header = createHeader('Tic Tac Toe');
+    expect(header.childElementCount).toBe(1);
+  });
 });

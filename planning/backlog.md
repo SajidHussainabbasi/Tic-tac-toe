@@ -1,30 +1,28 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+- As a user, I want to see the game board so I can play Tic Tac Toe
+- As a user, I want to click on a square to place my X or O
+- As a user, I want the game to alternate turns between X and O automatically
+- As a user, I want to know when someone wins or when the game is a draw
+- As a user, I want to reset the game to play again
+- As a user, I want to see whose turn it is during the game
 
 ## Must-Haves
 
-> these are necessary for basic usability
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- A 3x3 game board
+- Turn-taking between Player X and Player O
+- Win and draw detection
+- Game reset functionality
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- Visual indication of the winning line
+- Current player indicator
+- Simple styling for a clean UI
 
 ## Could-Haves
 
-> would be really cool ... if there's time
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- Scoreboard to track wins
+- Single-player mode against computer
+- Option to enter player names
+- Dark mode toggle
