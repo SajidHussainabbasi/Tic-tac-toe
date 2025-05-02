@@ -8,7 +8,6 @@
   - [Screenshots](#screenshots)
   - [Code Example](#code-example)
   - [Technologies](#technologies)
-  - [Setup](#setup)
   - [Status](#status)
   - [Inspiration](#inspiration)
   - [Contact](#contact)
@@ -25,24 +24,20 @@
   - [Screenshots](#screenshots)
   - [Code Example](#code-example)
   - [Technologies](#technologies)
-  - [Setup](#setup)
   - [Status](#status)
   - [Inspiration](#inspiration)
   - [Contact](#contact)
 
 ## Screenshots
 
-![Tic Tac Toe Game Screenshot](./public/Tic%20Tac%20Toe%20image1.png)
-![Tic Tac Toe Game Screenshot](./public/Tic%20Tac%20Toe%20image2.png)
-![Tic Tac Toe Game Screenshot](./public/Tic%20Tac%20Toe%20image3.png)
-![Tic Tac Toe Game Screenshot](./public/Tic%20Tac%20Toe%20image4.png)
+![Tic Tac Toe Game Screenshot](./public/image1.png)
+![Tic Tac Toe Game Screenshot](./public/image2.png)
+![Tic Tac Toe Game Screenshot](./public/image3.png)
+![Tic Tac Toe Game Screenshot](./public/image4.png)
 
 ## Code Example
 
-![Tic Tac Toe Game Code Example](./public/Code%20Example%20.png)
-   ```bash
-
-
+![Tic Tac Toe Game Code Example](./public/CodeExample.png)
 
 ## Technologies
 
@@ -52,25 +47,14 @@
 - Git & GitHub
 - VS Code (Editor)
 
-## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/tic-tac-toe.git
-
-
 ## Status
 
 Project has Completed
 
 ## Inspiration
 
-Project for my Brussels formation Course in HYF
+Project for my Brussels formation Course of  in HYF
 
 ## Contact
 
 [Sajid Hussain](https://github.com/SajidHussainabbasi)
-
-
-
-
